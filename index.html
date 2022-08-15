@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Product Landing Page</title>
+        <meta name="description" content="The best shop for your fashion and beauty accesories. Shop now.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"></script>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+       <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./public/images/photon-logo.png" alt="" />
+                <a href="#"><h1>Shoe<span>s</span></h1></a>
+            </div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./product/products.html">Products</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="./login/login.html">Sign In</a></li>
+                
+            </ul>
+        </header>
+        <div class="main">
+            <div class="main1">
+                <span class="title">Latest Collections</span>
+                <h1>Classic Shoes</h1>
+                <span class="sub-title">Best Products to match the Season</span>
+                <div class="underline"></div>
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of
+                    the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                    of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise
+                    on the theory of ethics, very popular during the Renaissance.
+                </p>
+                <button onclick="window.location.href = './product/products.html';" >Shop now</button>
+            </div>
+            <div class="main2">
+                <img class="image" src="./public/images/shoe.png" alt="shoe-img" aria-expanded />
+            </div>
+        </div>
+        <div class="sub-pics">
+            <img src="./public/images/shoe.png" alt="shoe-img" onclick="imageUpdate('./public/images/shoe.png')" />
+            <img src="./public/images/shoe-lady.png" alt="shoe-img" onclick="imageUpdate('./public/images/shoe-lady.png')" />
+            <img src="./public/images/shoe-ladies.png" alt="shoe-img" onclick="imageUpdate('./public/images/shoe-ladies.png')" />
+        </div>
+       </div>
+        
+        <script src="product.js" async></script>
+    </body>
+</html>

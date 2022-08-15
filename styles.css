@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+div a h1 {
+    cursor: pointer;
+}
+
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+    padding-right: 140px;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-image: url("./public/images/background.jpg");
+}
+
+header .logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 60px;
+}
+
+header ul li a {
+    font-size: 18px;
+    padding: 8px 20px;
+    margin: 0 5px;
+    color: #FFF;
+}
+
+header ul li a:hover {
+    color: #f2d280;
+}
+
+header .logo h1 {
+    font-size: 45px;
+    color: #e8c573;
+    padding-top: 80px;
+}
+
+header .logo h1 span {
+    font-size: 25px;
+    color: #f2d280;
+}
+
+header .logo img {
+    width: 200px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.main1 {
+    width: 70%;
+    height: 100%;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+.main2 {
+    width: 40%;
+    height: 100%;
+}
+
+.main1 .title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.829);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.main1 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 90px;
+    color: #f2d280;
+}
+
+.main1 .sub-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffd778;
+}
+
+.main1 button {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 1px solid #f2d280;
+    color: #f5f5f5;
+    padding: 7px 25px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.main1 button:hover {
+    background: linear-gradient(#e5d6b2 , #e8c573);
+    border: 3px solid #544115;
+    color: #000;
+}
+
+.main1 .underline {
+    height: 1px;
+    width: 20%;
+    margin-top: 50px;
+    background-color: #e8c573;
+}
+
+.main1 p {
+    color: rgba(245, 237, 237, 0.829);
+    width: 80%;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.main2 img {
+    width: 550px;
+    transition: all 0.6s ease;
+    padding-bottom: 200px;
+}
+
+.sub-pics {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub-pics img {
+    width: 80px;
+    cursor: pointer;
+    margin: 18px 0; 
+}
+
+.sub-pics img:hover {
+    transform: translateY(-5px);
+}
