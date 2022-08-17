@@ -12,19 +12,24 @@
     </head>
     <body>
 
-        <div class="relative z-10" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
-            <header>
-                <div >
-                    <a href="../index.html">
-                        <h1>Home</h1>
-                    </a>
-                </div>
-                <ul>
-                    
-                    <li><a href="../product/products.html">Products</a></li>
-            
-                </ul>
-            </header>
+    <div class="relative z-10" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
+        <div class="py-8 px-6 bg-gray-100 flex justify-between hamburger-menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">
+                <span></span>
+            </label>
+
+            <ul class="menu-box">
+                <li><a class="menu-item" href="../index.html">Home</a></li>
+                <li><a class="menu-item" href="#">About</a></li>
+                <li><a class="menu-item" href="../product/products.html">Products</a></li>
+                <li><a class="menu-item" href="#">Favorites</a></li>
+                <li><a class="menu-item" href="#">Your Orders</a></li>
+                <li><a class="menu-item" href="../login/login.html">Profile</a></li>
+                <li><a class="menu-item" href="#">Settings</a></li>
+                <li><a class="menu-item" href="#">Customer Care</a></li>
+            </ul>
+        </div>
             <div class="relative inset-0 overflow-visible">
                 <div class="relative inset-0 overflow-visible">
                     <div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
