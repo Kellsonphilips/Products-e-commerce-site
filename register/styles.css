@@ -1,0 +1,18 @@
+
+* {
+    box-sizing: border-box;
+}
+
+header .logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 60px;
+}
+
+header .logo img {
+    width: 100px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
