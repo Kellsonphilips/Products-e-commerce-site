@@ -11,13 +11,12 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-
+        <div class="p-6 rounded-lg ">
         <nav class="mt-6 px-8 py-6 bg-gray-200">
              <header class="font-bold  flex justify-between">
                 <div class="logo">
-                    <img src="./public/images/photon-logo.png" alt="" />
-                    <a href="#">
-                        <h1 class="color-Gold">Shoes</h1>
+                    <a href="../index.html">
+                        <h1 class="fa fa-home">Shoes</h1>
                     </a>
                 </div>
                 <ul class="flex justify-start px-6">
@@ -31,33 +30,29 @@
             </header>
         </nav>
 
-        <div class="container h-52 w-52 bg-gray-100 border-1 rounded-md shadow-lg">
+        <div class="content bg-gray-100 shadow-lg py-6">
             <form action="#">
-                <p>
-                    <label for="">First Name</label>
-                    <input type="text" placeholder="First Name"> 
-                </p>
-                <p>
-                    <label for="">Last Name</label>
-                    <input type="text" placeholder="Last Name"> 
-                </p>
-                <label for="">Email</label>
-                    <input type="text" placeholder="Email">
-                <p>
-                    <label for="">Gender</label>
-                    <input type="radio" name="">
-                </p>
-                <label for="">Password</label>
-                    <input type="password" placeholder="Password">
-                <label for="">Confirm password</label>
-                    <input type="password" placeholder="Confirm Password">
-                <button type="submit">Login</button>
-                <p>don't have account <a href="#">Register</a></p>
+                <h1>Please Login</h1>
+                <div class="field">
+                    <span class="fa fa-user"></span>
+                    <input type="text" name="" id="" placeholder="Enter Email" required>
+                </div>
+                <div class="field space">
+                    <span class="fa fa-lock"></span>
+                    <input class="key" type="password" name="" id="" placeholder="Enter Password" required>
+                    <span class="show">Show</span>
+                </div>
+                <div class="pass">
+                    <a class="first" href="#">Forgot password?</a>
+                    <a class="second" href="../register/Register.html">Register</a>
+                </div>
+                <div class="field">
+                    <input type="submit" name="" id="" value="LOGIN">
+                </div>  
             </form>
-           
         </div>
-        
-        
+        </div>
+
         <script src="" async defer></script>
     </body>
 </html>
