@@ -3,8 +3,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-size: cover;
+    background-image: url(../public/images/lady2-background.jpg);
+    /* background: rgb(245, 241, 241); */
+    
+}
+
 header .logo {
-    width: 30%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -14,5 +21,138 @@ header .logo {
 header .logo img {
     width: 100px;
     padding-left: 1rem;
-    padding-top: 1rem;
+    padding-top: .5rem;
+}
+
+header ul li a {
+    font-size: 18px;
+    padding: 8px 20px;
+    margin: 0 5px;
+    color: rgb(35, 36, 39);
+}
+
+header ul li a:hover {
+    color: #f2d280;
+}
+
+
+.content h1 {
+    color: rgb(21, 17, 17);
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 0 37px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.content {
+    top: 51%;
+    left: 5%;
+    width: 450px;
+    border-radius: 12px;
+    text-align: center;
+    position: absolute;
+    padding: 60px 30px;
+    background: rgba(255, 255, 255, 0.18);
+    box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFF;
+    backdrop-filter: blur(5px);
+    transform: translate(150%, -50%);
+    z-index: 2;
+}
+
+.field {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.9);
+    position: relative;
+    margin-top: 18px;
+}
+
+.field input[type="submit"] {
+    background: #240ecc;
+    border: 1px solid #511bdc;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 1rem;
+}
+
+.field input[type="submit"]:hover {
+    background: #305edcf5;
+}
+
+.field span {
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+
+.field input {
+    height: 100%;
+    width: 100%;
+    color: #222;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.pass {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.pass a {
+    color: rgb(40, 15, 200);
+    padding-right: 50px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pass .second:hover {
+    text-decoration: underline;
+    color: #240ecc;
+}
+
+.space {
+    margin-top: 18px;
+}
+
+.show {
+    color: #222;
+    cursor: pointer;
+    display: none;
+    font-size: 15px;
+    font-weight: 600;
+    right: 13px;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login {
+    color: #FFF;
+    margin: 20px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+i span {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.pass-key:valid~.show {
+    display: block;
 }
