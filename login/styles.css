@@ -3,7 +3,25 @@
 }
 
 body {
-    background: rgb(245, 241, 241);
+    background-size: cover;
+    background-image: url(../public/images/lady-background.jpg);
+    /* background: rgb(245, 241, 241); */
+}
+
+header .logo img {
+    width: 150px;
+    padding-left: 3rem;
+}
+
+header ul li a {
+    font-size: 18px;
+    padding: 8px 20px;
+    margin: 0 5px;
+    color: rgb(35, 36, 39);
+}
+
+header ul li a:hover {
+    color: #f2d280;
 }
 
 .content h1 {
@@ -52,7 +70,7 @@ body {
 }
 
 .field input[type="submit"]:hover {
-    background: #0695e8f5;
+    background: #235fd7f5;
 }
 
 .field span {
@@ -74,13 +92,15 @@ body {
 
 
 .pass {
+    display: flex;
+    justify-content: space-between;
     text-align: left;
     margin: 10px 0;
 }
 
 .pass a {
-    color: rgb(23, 21, 21);
-    padding-right: 50px;
+    color: rgb(8, 16, 173);
+    padding-right: 10px;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
