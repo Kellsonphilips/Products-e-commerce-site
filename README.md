@@ -3,3 +3,9 @@
 - Clean UI
 - Fewer technologies 
 - Maximum satisfaction
+
+---
+
+## Testing this project
+
+- For the repo or `clone` it to have a copy in your local machine 
